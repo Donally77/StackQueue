@@ -22,6 +22,11 @@ public class MyStack {
         myList.print();
     }
 
+    public INode pop() {
+        return myList.pop();
+    }
+
+
 
     public static void main(String[] args){
         //master welcome message
